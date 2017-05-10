@@ -1,0 +1,64 @@
+body {
+    background: #e9e9e9;
+}
+header{
+    color:#e4007d;
+    text-align:center;
+}
+h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+image{
+}
+
+p{
+    font-size: large;
+    font-family: monospace;
+}
+#slogan {
+	font-style: italic;
+	font-size: 20px;
+	color: #e4007d;
+    outline-width: 90px;
+    padding:10px 30px 15px 30px;
+}
+#intro {
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Coda', cursive;
+    color:red;
+    font-size: 20px;
+    margin:length|auto|initial|inherit;
+    text-align: center;
+}
+#abouttext{
+    font-size: 20px;
+    color: red;
+    max-width: 3000px;
+}
+
+
+nav{list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e8cc66a;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
