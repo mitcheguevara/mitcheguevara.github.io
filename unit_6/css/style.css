@@ -1,0 +1,113 @@
+body {
+    background: #e9e9e9;
+    margin:0;
+}
+header{
+    background: #ffed74;
+    color:#e4007d;
+    text-align:center;
+}
+h2 {
+    font-size: 1.5em;
+    padding: .8em 0;
+    color: #fffebb;
+    border-bottom-color:#fffebb;
+}
+img{
+}
+section{
+    background: #ffe2b8;
+}
+article{
+    background: #e89c6c;
+}
+p{
+    font-size: large;
+    font-family: monospace;
+}
+div{
+    background: #FF69B4;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e8c66a;
+    font-family: arial, sans-serif;
+}
+a{
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 28px;
+    width: 200px;
+}
+a:hover {
+    background-color: #aaaaaa;
+}
+#chump1 {
+    background-color: violet;
+    border: 2px black solid;
+    padding: 20px 20px;
+    float: left;
+    width: 30%;
+}
+#chump2{
+    background-color: pink;
+    border: 2px black solid;
+    padding: 20px;
+    float: left;   
+    width: 30%;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 20px;
+	color: #e4007d;
+    outline-width: 90px;
+    padding:10px 30px 15px 30px;
+}
+#intro {
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Coda', cursive;
+    color:red;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+#abouttext{
+    font-size: 20px;
+    color: red;
+    max-width: 3000px;
+}
+
+#one img {
+	width:1366px;
+    height:568px; 
+    padding: 30px 30px 15px 30px;
+}
+#two img{
+    width:226px;
+    height:328px; 
+    padding:10px 20px 15px 100px;
+    float: left;
+}
+
+.clearfix{
+    overflow: auto;
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
